@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600411286276",
+    "project_id": "best-delivery-d1b15",
+    "storage_bucket": "best-delivery-d1b15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600411286276:android:c205a9e1aa093ed4467e51",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600411286276-u9gneca391hq2rfe64mik5luosc0qt63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdUgEAKeKklDsEvo6hNYLMJV6vrzztGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600411286276-u9gneca391hq2rfe64mik5luosc0qt63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
