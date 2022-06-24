@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:food_delivery/location.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-
 import 'home_screen.dart';
 
 class MapLocation extends StatefulWidget {
