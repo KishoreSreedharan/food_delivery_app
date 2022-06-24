@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery/map.dart';
 import 'colors.dart';
 import 'kIcons.dart';
 import 'drawerMenu.dart';
@@ -85,7 +86,12 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     ),
                     InkWell(
                       onTap: () {
-                        print(bannerCards.length);
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  const MapLocation()),
+                        );
                       },
                       child: Row(
                         mainAxisSize: MainAxisSize.min,

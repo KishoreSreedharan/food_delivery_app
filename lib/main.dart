@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/constant.dart';
 import 'package:food_delivery/home_screen.dart';
+import 'package:food_delivery/map.dart';
 import 'login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -16,8 +17,8 @@ void main() async{
 
     @override
     Widget build(BuildContext context) {
-      return  const MaterialApp(
-        home: LoginScreen(),
+      return   MaterialApp(
+        home: HomeScreen(),
         title: appName,
         debugShowCheckedModeBanner: false,
       );
